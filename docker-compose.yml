@@ -32,7 +32,7 @@ services:
       - backend
     environment:
       - MYSQL_ROOT_PASSWORD=rootpassword
-    container_name: mysql
+    container_name: mysqlbla
 networks:
   frontend:
   backend:
