@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="style/jquery.autocomplete.css">
+<script type="text/javascript" src="include/jquery.js"></script>
+<script type="text/javascript" src="include/jquery.autocomplete2.js"></script>
+<script type="text/javascript">
+	$().ready(function() {
+		
+		$("#txt_kepada").result(function(event, data, formatted) {
+			if (data){
+				alert(data[1]);
+			}
+		});
+		
+		$("#txt_kepada").autocomplete('Share/Lookup/autocomplete.php',{ 
+			minChars:2, 
+			selectFirst: false,
+			delimiter: /(,|;)\s*/, // regex or character
+			scrollHeight:400,
+			width: 300,
+			zIndex: 9999,
+			delay: 2, //miliseconds
+			extraParams: { cat:'people_kepada' }, //aditional parameters
+			noCache: false
+		});
+	});
+</script>
+</head>
+
+<body>
+	<form autocomplete="off">
+		<input type="text" id="txt_kepada" name="txt_kepada" />
+	</form>
+</body>
+</html>

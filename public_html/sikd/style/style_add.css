@@ -1,0 +1,306 @@
+.adminlist {
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #ddd;
+	border-spacing: 0px;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.adminlist th {
+	margin: 0px;
+	padding: 6px;
+	background-color: #D7E0EA;
+	font-size: 12px;
+	color: #000033;
+	text-align: center;
+	vertical-align:middle;
+	text-transform:uppercase;
+}
+
+.adminlist th.title {
+	text-align: center;
+	text-transform:uppercase;
+}
+
+.adminlist td
+{
+	border-bottom:solid 1px #CCCCCC;
+	padding:4px;
+}
+
+.gridCC th {
+	margin: 0px;
+	padding: 6px;
+	background-color: #D7E0EA;
+	font-size: 12px;
+	color: #000033;
+	text-align: center;
+	vertical-align:middle;
+	text-transform:uppercase;
+}
+
+.gridCC td
+{
+	border-bottom:solid 1px #CCCCCC;
+	padding:3px;
+}
+
+.navrightheader
+{
+	height: 24px;
+	/*background-color: #D6E8FF;
+	background-image:url(../images/listheadergrad.gif);*/
+	border-bottom: #D6E8FF 1px solid;
+	background-repeat:repeat-x;
+	vertical-align:middle;
+	/*width: 616px;*/
+	color:#003399;
+	font-size: 10pt;
+	font-weight:normal;
+	/*border-bottom: 1px solid #79A7E3;*/
+	padding-right:6px;
+	padding-left:6px;
+}
+
+.btn_add
+{
+	border:0px;
+	background-image: url(../images/createcontent-1.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	background-color:Transparent;
+	height:20px;
+	width:85px;
+	padding: 1px 3px 3px 15px;
+	margin: 0px 2px 0px 2px;
+}
+
+.btn_edit
+{
+	border:0px;
+	background-image: url(../images/edit.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	background-color:Transparent;
+	height:20px;
+	margin-left:10px;
+	padding: 1px 3px 3px 18px;
+}
+
+.btn_print
+{
+	border:0px;
+	background-image: url(../images/print.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	background-color:Transparent;
+	height:20px;
+	margin-left:10px;
+	padding: 1px 5px 3px 18px;
+}
+
+.btn_view
+{
+	border:0px;
+	background-image: url(../images/paper.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	background-color:Transparent;
+	margin-left:10px;
+	height:20px;
+	padding: 1px 3px 3px 17px;
+}
+
+.btn_view_final
+{
+	border:0px;
+	background-image: url(../images/images_upload.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	background-color:Transparent;
+	height:20px;
+	padding: 1px 3px 3px 18px;
+}
+
+.btn_ref
+{
+	border:0px;
+	background-image: url(../images/createcontent.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	background-color:Transparent;
+	height:20px;
+	padding: 1px 3px 3px 7px;
+}
+
+.btn_back
+{
+	border:0px;
+	background-image: url(../images/back.png) ;
+	background-repeat:no-repeat;
+	background-position:left;
+	background-color:Transparent;
+	height: 20px;
+	padding: 1px 3px 3px 18px;
+}
+
+.btn_reply
+{
+	margin-left:10px;
+	border:0px;
+	background-image: url(../images/Email-Reply-icon.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	background-color:Transparent;
+	height:20px;
+	padding: 1px 3px 3px 22px;
+}
+
+.btn_forward
+{
+	border:0px;
+	background-image: url(../images/forward.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	background-color:Transparent;
+	height:20px;
+	padding: 1px 3px 3px 22px;
+}
+
+.btn_save
+{
+	border:0px;
+	background-image: url(../images/file.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	background-color:Transparent;
+	height:20px;
+	width:150px;
+	padding: 1px 3px 3px 27px;
+}
+
+.btn_berkas_new
+{
+	border:0px;
+	background-image: url(../images/createcontent.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	background-color:Transparent;
+	height:20px;
+	padding: 1px 3px 3px 17px;
+}
+
+.btn_berkas_edit
+{
+	border:0px;
+	background-image: url(../images/briefcase.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	background-color:Transparent;
+	height:20px;
+	padding: 1px 3px 3px 17px;
+	margin-right:10px;
+}
+
+.btn_berkas_close
+{
+	border:0px;
+	background-image: url(../images/briefcase.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	background-color:Transparent;
+	margin-left:10px;
+	height:20px;
+	padding: 1px 3px 3px 18px;
+}
+
+.btn_berkas_susut
+{
+	border:0px;
+	background-image: url(../images/cabkecil.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	background-color:Transparent;
+	height:20px;
+	width:130px;
+	margin: 0px 2px 0px 2px;
+	padding: 1px 3px 3px 10px;
+}
+
+.btn_del
+{
+	border:0px;
+	background-image: url(../images/delete.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	background-color:Transparent;
+	height:20px;
+	width:90px;
+	text-align:left;
+	margin: 0px 2px 0px 2px;
+	padding: 1px 3px 3px 18px;
+}
+
+
+/* Tabs */
+
+.idtab {
+	width:100%;
+	float:left;
+	margin:0px;
+}
+
+.idtab ul{
+	list-style-type:none;
+	float:left;
+	margin:0px;
+}
+
+.idtab ul li {
+	list-style-type:none;
+	display: block; 
+	float: left;
+	height:20px;
+	vertical-align: middle; 
+	text-decoration : none;
+	padding: 0px;
+}
+
+.idtab ul a{
+	display:block;
+	padding:6px 10px;
+	text-decoration:none!important;
+	margin:1px;
+	margin-left:0;
+	font:11px Verdana;
+	color:#000;
+	background-color: #D6E8FF;
+	/*background-image:url(../images/listheadergrad.gif);*/
+	background-repeat:repeat-x;
+}
+
+.idtab ul a:hover{
+	color:#FFF;
+  	background:#0066FF;
+}
+
+.idtab ul a.selected {
+  margin-bottom:0;
+  color:#000;
+  background:snow;
+  background-color: #f9f9f9;
+  border-top: solid 1px #d5d5d5;
+  border-left: solid 1px #d5d5d5;
+  border-right: solid 1px #d5d5d5;
+  cursor:default;
+}
+
+.tb_paging .pg_active{
+	border: #CCCCCC 1px solid;
+}
+
+.tb_paging .pg_inactive{
+	border: #0066CC 1px solid;
+	color: #0066CC;
+}
